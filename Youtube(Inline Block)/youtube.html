@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+        }
+        .left{
+            display: inline-block;
+            width: 12%;
+            height: 100vh;
+            padding: 20px;
+            background-color: #F1F1F1;
+            vertical-align: top;
+        }
+        .right{
+            display: inline-block;
+            width: 87%;
+            height: 100vh;
+            padding: 20px;
+            background-color: white;
+        }
+        .logo{
+            display: inline-block;
+            margin-right:50px ;
+        }
+        .search{
+            display: inline-block;
+            margin-right: 5%;
+        }
+        .box{
+            display: inline-block;
+            background-color: #F1F1F1;
+            border-radius: 10%;
+            margin-right: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 18px;
+        }
+        .nav{
+            padding-top: 0px;
+            padding-bottom: 20px;
+            /* white-space: nowrap;
+            overflow-x: scroll; */
+        }
+        .nav2{
+            padding-bottom: 20px;
+            /* white-space: nowrap;
+            overflow-x: scroll; */
+        }
+        .hero1,.hero2,.hero3{
+            width: 100%;
+            background-color: #F1F1F1;
+            height: 310px;
+            padding: 20px;
+            /* white-space: nowrap;
+            overflow-x: scroll; */
+            margin-bottom: 25px;
+        }
+        /* Scroll bar ko gayab karne ke liye, extra space bhi chala jayega */
+        /* .nav::-webkit-scrollbar{
+            display: none;
+        }
+        .nav2::-webkit-scrollbar{
+            display: none;
+        }
+        .hero1::-webkit-scrollbar{
+            display: none;
+        }
+        .hero2::-webkit-scrollbar{
+            display: none;
+        }
+        .hero3::-webkit-scrollbar{
+            display: none;
+        } */
+        .card{
+            background-color: white;
+            height: 250px;
+            width: 400px;
+            display: inline-block;
+        }
+        .mic,.create,.notification{
+            padding: 20px;
+        }
+        .mic{
+            padding-right: 40%;
+        }
+        .list i{
+            font-size: xx-large;
+            padding: 20px;
+        }
+        .home i{
+            font-size: x-large;
+            padding: 20px;
+        }
+        .shorts i{
+            font-size: x-large;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- left part -->
+        <div class="left">
+            <!-- list logo -->
+            <div class="list">
+                <i class="fa-solid fa-list"></i>
+            </div>
+            <!-- home logo -->
+            <div class="home">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </div>
+            <!-- shorts logo -->
+            <div class="shorts">
+                <i class="fa-solid fa-video"></i>
+                <span>Shorts</span>
+            </div>
+        </div>
+        <!-- right part -->
+        <div class="right">
+            <!-- Upper nav -->
+            <div class="nav">
+                <!-- youtube logo -->
+                <span class="logo">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>YouTube</span>
+                </span>
+                <!-- search bar -->
+                <div class="search">
+                    <input type="text" placeholder="Search" style="width: 350px; padding: 11px; border-radius: 20px;">
+                </div>
+                <!-- mic logo -->
+                <span class="mic">
+                    <i class="fa-solid fa-microphone"></i>
+                </span>
+                <!-- plus logo -->
+                <span class="create">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <!-- bell logo -->
+                <span class="notification">
+                    <i class="fa-regular fa-bell"></i>
+                </span>
+                <!-- user logo -->
+                <span>
+                    <p style="height: 40px; width: 40px; border-radius: 50%; display: inline-block; background-color: rgb(95, 94, 111); color: white; text-align: center ;padding:8px; font-size: 22px;">S</p>
+                </span>
+            </div>
+            <!-- lower nav -->
+            <div class="nav2">
+                <div class="box">All</div>
+                <div class="box">Shorts</div>
+                <div class="box">Unwatched</div>
+                <div class="box">Watched</div>
+                <div class="box">Videos</div>
+                <div class="box">Recently uploaded</div>
+                <div class="box">Live</div>
+            </div>
+            <!-- Hero Section 1 -->
+            <div class="hero1">
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Hero Section 2 -->
+            <div class="hero2">
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Hero Section 3 -->
+            <div class="hero3">
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card"  src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="card" src="https://www.youtube.com/embed/XqmtLhF1W7c?si=85ueDpmColq00Xu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

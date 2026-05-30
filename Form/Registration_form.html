@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(wp5210357-pink-aesthetic-ultra-hd-wallpapers.jpg);
+            background-size: cover;/*pura area cover karega viewpot me*/
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        label{
+            color: aliceblue;
+            margin: 10px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        input {
+        width: 250px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1.5px solid aliceblue;
+        color: aliceblue;
+        outline: none;
+        
+}
+    </style>
+</head>
+<body>
+    <!-- transparent div -->
+    <div>
+        <!-- Header -->
+        <header style="margin-bottom: 100px; padding: 10px; background-color:transparent; border-radius: 10px; width: auto;">
+            <!-- Registration Form -->
+            <h1 style="color: aliceblue; text-align: center;">Registeration Form</h1>
+        </header>
+    </div>
+    <!-- Form -->
+    <form style="justify-content: center; justify-items: center; align-items: center; display: grid;">
+        <!-- Fieldset background div -->
+        <div style=" width: 500px; height: 600px; margin: auto; padding: 20px; background-color:rgba(0, 0, 0, 0.5); border-radius: 10px;">
+            <!--FieldSet  -->
+            <fieldset style="background-color: transparent; border: 2px solid aliceblue; border-radius: 10px;">
+                <legend style="text-align: center; color: aliceblue;"><h3>Personal Information</h3></legend>
+            <label>
+                Name:
+                <input type = "text" placeholder="Enter Name" required>
+             </label><br>
+             <label>
+                Email:
+                <input type = "email" placeholder="example@gmail.com" required class="">
+             </label><br>
+             <label>
+                Password:
+                <input type = "password" placeholder="**********" required>
+             </label><br>
+             <label>
+                DOB:
+                <input type = "date">
+             </label><br>
+             <label>
+                Phone number: 
+                <input type = "tel" placeholder="+91-123-456-7890">
+             </label>
+             <!-- Button -->
+             <div style="display: flex; justify-content: center; gap: 50px; margin: 35px;">
+                 <button style=" padding: 10px; border-radius: 10px; background-color: transparent; border: 1.5px solid aliceblue; color: aliceblue; cursor: pointer;">Submit</button>
+             </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>

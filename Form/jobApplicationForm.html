@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application - Form</title>
+    <style>
+        div{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 style="text-align: center;">Job Application Form</h1>
+    </header>
+    <main>
+        <marquee>
+            <p>Limited Seat Available.</p>
+        </marquee>
+        <!-- Form -->
+         <form>
+            <!-- Personal Information -->
+             <div style="text-align: center; width: 500px; margin: auto; padding: 20px;">
+                 <fieldset>
+                    <legend>
+                        Personal Information
+                    </legend>
+                    <div>
+                        <label for="name">
+                            Full Name:
+                        </label>
+                        <input type = "text" id="name" placeholder="Enter Name" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">
+                            Email:
+                        </label>
+                        <input type = "email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    
+                    <div>
+                        <label for="phone">
+                            Phone No. :
+                        </label>
+                        <input type = "tel" id="phone" placeholder="+91-123-456-7890" required>
+                    </div>
+                    
+                    <div>
+                        <label for="dob">
+                            DOB:
+                        </label>
+                        <input type = "date" id="dob" required>
+                    </div>
+                    
+                    <input type="submit">
+    
+                 </fieldset>
+             </div>
+
+             <!-- Gender Information -->
+              <fieldset>
+                <legend>
+                    Gender Information
+                </legend>
+                <label for="male">
+                    Male
+                </label>
+                <input type = "radio" id="male">
+                
+                <label for="female">
+                    Female
+                </label>
+                <input type = "radio" id="female">
+                
+                <label for="others">
+                    Others
+                </label>
+                <input type = "radio" id="others">
+
+              </fieldset>
+
+              <!-- Skills -->
+
+              <fieldset>
+                <legend>
+                    Skills
+                </legend>
+
+                <div>
+                    <label for="mern">
+                        MERN
+                    </label>
+                    <input type = "checkbox" id="mern">
+                </div>
+                
+                <div>
+                    <label for="ai_developer">
+                        AI - DEVELOPER
+                    </label>
+                    <input type = "checkbox" id="ai_developer">
+                </div>
+                
+                <div>
+                    <label for="cloud-engineer">
+                        CLOUD - ENGINEER
+                    </label>
+                    <input type = "checkbox" id="cloud-engineer">
+                </div>
+
+                <div>
+                    <label for="data-analyst">
+                        DATA - ANALYST
+                    </label>
+                    <input type = "checkbox" id="data-analyst">
+                </div>
+
+              </fieldset>
+
+              <!-- Additional information -->
+               <fieldset>
+                <legend>
+                    Additional Information
+                </legend>
+                <div>
+                    <label for="experience">Years of Experience</label>
+                    <select id="experience">
+                        <option disabled selected>Select Year</option>
+                        <option>Fresher</option>
+                        <option>!st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd+ Year</option>
+                    </select>
+                </div>
+
+                <!-- Location -->
+                 <div>
+                     <lable id = "location">
+                        Prefered location
+                     </lable>
+                     <select id = "location">
+                        <option disabled selected>Select Location</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                        <option>Hyderabad</option>
+                     </select>
+                 </div>
+
+                 <div>
+                     <!-- Upload Resume -->
+                      <label for="resume">Upload Resume</label>
+                      <input type="file" id="resume" maxlength="24KB" accept=".pdf,.html,.png,.jpeg,.jpg,.wpeg">
+                   </fieldset>
+                </div>
+
+                <!-- Button -->
+                <button>Submit</button>
+                <button>Reset</button>
+         </form>
+    </main>
+    
+</body>
+</html>
