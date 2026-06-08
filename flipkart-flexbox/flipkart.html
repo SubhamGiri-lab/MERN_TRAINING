@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart_Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+</head>
+<body>
+    <div class="main">
+
+        <header>
+            <!-- Upper Nav -->
+            <div class="nav">
+                <div class="logo">
+                    <div class="flip_logo">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/52/44/image/d2ecfddf891a3922.png?q=60" alt="">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/92/36/image/31f7e3af490c225f.png?q=60" alt="">
+                    </div>
+                    <div class="trav_logo">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/58/44/image/7ab4040af860941d.png?q=60" alt="">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/72/36/image/5a9ff48eef96b876.png?q=60" alt="">
+                    </div>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location not set <span>Select delivery location ></span></p>
+                </div>
+            </div>
+            <!-- Middle Nav -->
+             <div class="mid_nav">
+                <div class="mid_left">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for products,Brands and More">
+                </div>
+                <div class="mid_right">
+                    <div class = "login">
+                        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg" alt="">
+                        <p>Login</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="more">
+                        <p>More</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="cart">
+                        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg" alt="">
+                        <p>Cart</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- Lower nav -->
+            <div class="low_nav">
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg" alt="">
+                    <p>For You</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg" alt="">
+                    <p>Fashion</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg" alt="">
+                    <p>Mobiles</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg" alt="">
+                    <p>Beauty</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg" alt="">
+                    <p>Electronics</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg" alt="" height="30px">
+                    <p>Home</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg" alt="">
+                    <p>Appliances</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg" alt="">
+                    <p>Toys,baby</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg" alt="">
+                    <p>Food & Health</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-acc.svg" alt="">
+                    <p>Auto Accesories</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg" alt="">
+                    <p>2 Wheelers</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/books.svg" alt="">
+                    <p>Books & Media</p>
+                </div>
+                <div>
+                    <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg" alt="">
+                    <p>Sports & Fitess</p>
+                </div>
+            </div>
+            <hr>
+        </header>
+        <!-- section 1 -->
+        <div class="banner">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/3d82c26c3e7ec6e7.jpg?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/c2b50e767fcc4fc6.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/9d3cef70a445ad4c.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/f326a50b869d41f1.jpg?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/02b643a8c70f6a8b.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/940/460/image/9e7a64b00096dcf1.png?q=60" alt="">
+            </div>
+        </div>
+        <!-- Section 2 -->
+        <div class="banner1">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/760/1020/image/dfe1a1267294cdd9.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/3b88b5d5399b9cd6.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/d5ea66d4c698327a.png?q=60" alt="">
+            </div>
+        </div>
+        <!-- Section 3 -->
+        <div class="heading1">
+            <p>Suggested For You</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="card_container">
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/d3/13/b4/d313b4f2a32104d6725f00e279731a38.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">Apple iPhone 16 Plus</p>
+                    <p class="price">$22,999 <span>$24,999</span></p>
+                    <p class="discount">$21,849 <span>with Bank offer</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/d2/43/41/d243412520b520e47a08dc770b61ca9a.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">Apple iPhone 15 Pro Max</p>
+                    <p class="price">$20,999 <span>$22,999</span></p>
+                    <p class="discount">$19,849 <span>with Bank offer</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/a9/59/c8/a959c8668cefdbe53a838eb8ac95906c.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">Apple iPhone 17 Pro Max</p>
+                    <p class="price">$24,999 <span>$26,999</span></p>
+                    <p class="discount">$22,849 <span>with Bank offer</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/0f/8d/12/0f8d129f6429d7eaa39f864054f90ec3.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">IQOO 15 APEX 5G</p>
+                    <p class="price">$20,999 <span>$21999</span></p>
+                    <p class="discount">$19,849 <span>with Bank offer</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/02/bc/d6/02bcd6b81882e4ea1d10f3a194eee402.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">
+                        POCO M7 Plus 5G
+                    </p>
+                    <p class="price">$19,999 <span>$20,599</span></p>
+                    <p class="discount">$18,599 <span>with Bank offer</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/b5/55/b1/b555b1b3d0d73bf28c71c996768f26e6.jpg" alt="">
+                    <div>
+                        <p>4.4</p>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="des">
+                    <p class="about">REDMI 15 5G</p>
+                    <p class="price">$18,999 <span>$19,999</span></p>
+                    <p class="discount">$17,249 <span>with Bank offer</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Section 4 -->
+        <div class="card_container2">
+            <div class="heading2">
+                <p>On everybody's list</p>
+            </div>
+            <div class="cards">
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/736x/cb/10/3b/cb103b295494aa726de76b12dd7cefc4.jpg" alt="">
+                    </div>
+                    <p>Top Collection</p>
+                    <p class="b">From $299</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/1200x/5c/ae/56/5cae56486c746e11bfa76ab110af27b5.jpg" alt="">
+                    </div>                    
+                    <p>Top Fashion</p>
+                    <p class="b">From $899</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/736x/85/14/e8/8514e8bbd3df714269a230ac90e81785.jpg" alt="">
+                    </div>                 
+                    <p>Kitchen Accessories</p>
+                    <p class="b">From $599</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/736x/bd/aa/5d/bdaa5d4877c4ab606e45706c7c8131f7.jpg" alt="">
+                    </div>
+                    <p>Shoes Collection</p>
+                    <p class="b">From $1399</p>
+                </div>
+            </div>
+        </div>
+        <!-- Section 5 -->
+        <div class="heading3">
+            <p>Brands in spotlight</p>
+        </div>
+        <!-- part1 -->
+        <div class="banner2">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/fc05a8eeef95a327.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/97a3c615c97e0bb9.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/7546e36a5619e5f9.png?q=60" alt="">
+            </div>
+        </div>
+        <!-- part 2 -->
+        <div class="banner2">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/09487c7dbab50e0c.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/cbfb657fe4e99110.png?q=60" alt="">
+            </div>
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/200/260/image/b72ad746a310f39b.png?q=60" alt="">
+            </div>
+        </div>
+        <!-- section 6 -->
+         <div class="banner3">
+             <img src="https://rukminim1.flixcart.com/fk-p-flap/3140/700/image/adbb1a1ca05abb5c.jpg?q=60" alt="">
+        </div>
+        <!-- section 7 -->
+        <div class="card_container3">
+            <div class="heading4">
+            <p>Shop for a Cool Summer</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+            <div class="cards">
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/736x/d1/d6/d9/d1d6d9a9bc45930561bdb6138dfca8f7.jpg" alt="">
+                    </div>
+                    <p>Face Wash</p>
+                    <p class="b">Min.50% Off</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/1200x/2b/e1/66/2be166e5ba2c0504e03e463c45a81c97.jpg" alt="">
+                    </div>                    
+                    <p>Men's Slippers & Flip Flops</p>
+                    <p class="b">Min.70% Off</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/736x/7b/9c/e1/7b9ce1b5605b99b36773bf8693c57f34.jpg" alt="">
+                    </div>                 
+                    <p>Adult Toys</p>
+                    <p class="b">Min.70% Off</p>
+                </div>
+                <div class="card1">
+                    <div class="image2">
+                        <img src="https://i.pinimg.com/1200x/a4/96/3b/a4963bfec493ab1c92da3ab78f904545.jpg" alt="">
+                    </div>
+                    <p>Men's Track Pants</p>
+                    <p class="b">Min.50% Off</p>
+                </div>
+            </div>
+        </div>
+        <!-- Section 8 -->
+        <div class="card_container2">
+           <div class="heading2">
+               <p>Popular nearby</p>
+           </div>
+           <div class="cards">
+               <div class="card1">
+                   <div class="image2">
+                       <img src="https://i.pinimg.com/736x/cc/08/77/cc0877eb0005fdd86b265b2bfb9ec3ba.jpg" alt="">
+                   </div>
+                   <p>Suncreen</p>
+                   <p class="b">From $199</p>
+               </div>
+               <div class="card1">
+                   <div class="image2">
+                       <img src="https://i.pinimg.com/736x/b1/88/d6/b188d60b9bb107902a7b3554a3116d69.jpg" alt="">
+                   </div>                    
+                   <p>Elegance & Scent</p>
+                   <p class="b">From $399</p>
+               </div>
+               <div class="card1">
+                   <div class="image2">
+                       <img src="https://i.pinimg.com/736x/8c/c8/a4/8cc8a44f89715991ffc76ad196ad9b92.jpg" alt="">
+                   </div>                 
+                   <p>Lens & Showdown</p>
+                   <p class="b">From $1899</p>
+               </div>
+               <div class="card1">
+                   <div class="image2">
+                       <img src="https://i.pinimg.com/736x/91/58/88/9158882f68612ce02407615321d95b93.jpg" alt="">
+                   </div>
+                   <p>Health & Skincare</p>
+                   <p class="b">From $599</p>
+               </div>
+           </div>  
+        </div>
+        <!-- end section -->
+    </div>
+    <hr class="end_hr">
+    <div class="message">
+        <p>Flipkart - Your go-to place for Online Shopping</p>
+        <i class="fa-solid fa-plus"></i>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="foot_up">
+            <!-- left foot -->
+            <div class="left_foot">
+                
+                <div class="footcard">
+                    <p class="head">ABOUT</p>
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>FlipKart Stories</p>
+                    <p>Press</p>
+                    <p>Corporate Information</p>
+                </div>
+                <div class="footcard">
+                    <p class="head">GROUP COMPANIES</p>
+                    <p>Myntra</p>
+                    <p>Cleartrip</p>
+                    <p>Shopsy</p>
+                </div>
+                <div class="footcard">
+                    <p class="head">HELP</p>
+                    <p>Payments</p>
+                    <p>Shipping</p>
+                    <p>Cancellation & Returns</p>
+                    <p>FAQ</p>
+                </div>
+                <div class="footcard">
+                    <p class="head">CONSUMER POLICY</p>
+                    <p>Cancellation & Returns</p>
+                    <p>Terms Of Use</p>
+                    <p>Security</p>
+                    <p>Privacy</p>
+                    <p>Sitemap</p>
+                    <p>Grievance Redressal</p>
+                    <p>EPR Compilance</p>
+                    <p>FSSAI Food Safety Connect App</p>
+                </div>
+            </div>
+            <!-- Verticle hr -->
+            <hr class="ver_hr">
+            
+            <!-- right foot -->
+                <div class="right_foot">
+                    <div class = "footcard">
+                        <p class="head">Mail Us:</p>
+                        <p class="mail">
+                            Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia &<br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India
+                        </p>
+                        <br>
+                        <div class="social">
+                            <p class="head">Social</p>
+                            <div class="social_logo">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footcard">
+                        <p class="head">Registered Office Address:</p>
+                        <p>Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia &<br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India<br>
+                            CIN: U51109KA2012PTC066107<br>
+                            Telephone:<span>044-45614700</span>/<span>044-67415800</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="end_hr">
+        <div class="foot_down">
+            <div class="fc">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-0489fc.svg" alt="">
+                <p>Become a Seller</p>
+            </div>
+            <div class="fc">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-e4b62a.svg" alt="">
+                <p>Advertise</p>
+            </div>
+            <div class="fc">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-6947a9.svg" alt="">
+                <p>Gift Cards</p>
+            </div>
+            <div class="fc">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-b9e23c.svg" alt="">
+                <p>Help Center</p>
+            </div>
+            <div class="fc">
+                <p>&copy; 2007-2026 FlipKart.com</p>
+            </div>
+            <div>
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-69e7ec.svg" alt="">
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
